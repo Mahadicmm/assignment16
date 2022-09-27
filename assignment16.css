@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    background-color: #2D25A0;
+}
+header .main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 50px 0 140px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+header .left-side ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+header .left-side ul li a{
+    text-decoration: none;
+    margin-right: 30px;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+}
+header .right-side a{
+    text-decoration: none;
+    font-weight: 700;
+    display: inline-block;
+    padding: 11px 30px;
+    background-color: rgba(255, 0, 76, 0.822);
+    color: #fff;
+    transition: 0.5s;
+}
+header .right-side .fa-sharp{
+    font-size: 20px;
+    right: 10px;
+    top: 1px;
+    position: relative;
+}
+header .header-content{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 155px;
+}
+header .header-content .left-content{
+    width: 455px;
+    padding: 75px 0;
+}
+header .header-content .right-content{
+    margin-right: 70px;
+    margin-bottom: 70px;
+}
+header .header-content .right-content img{
+    width: 560px;
+}
+header .header-content h4{
+    font-size: 65px;
+    line-height: 80px;
+    color: #fff;
+}
+header .header-content .left-content a{
+    background-color: rgba(255, 0, 76, 0.822);
+    padding: 12px 25px;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 25px;
+    letter-spacing: 1px;
+    color: #fff;
+    transition: 0.5s;
+}
+header .header-content .left-content .fa-sharp{
+    font-size: 20px;
+    position: relative;
+    left: 10px;
+    top: 1px;
+    padding-right: 10px;
+}
+header .right-side a:hover, header .header-content .left-content a:hover{
+    background-color: #fff;
+    color: #2D25A0;
+    transition: 0.5s;
+    padding: 11px 40px;
+}
+header .left-side ul li a:hover{
+    color: #f50963;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+/*photo content start*/
+.photo-content{
+    width: auto;
+    margin: 80px 170px;
+    /*background-color: rgb(245, 243, 243);*/
+}
+.photo-content .all-photo{
+    display: flex;
+    flex-wrap: wrap;
+}
+.photo-content .photo-box{
+    width: 31.33%;
+    padding: 18px;
+    box-shadow: 0px 0px 50px -8px rgb(190 189 189);
+    transition: 0.5s;
+}
+.photo-content .photo-box h4{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.photo-content .photo-box img{
+    width: 100%;
+    object-fit: cover;
+    height: 257.61px;
+}
+.photo-content .photo-box p{
+    line-height: 25px;
+    color: rgb(107, 105, 105);
+    margin-bottom: 20px;
+}
+.all-photo .ronaldo, .icardi, .messi, .Mesut, .mbappe, .salah, .kevin, .philippe{
+    margin-left: 3%;
+    margin-bottom: 3%;
+}
+.all-photo .naymar, .Paulo, .maria, .harry{
+    margin-bottom: 3%;
+}
+.photo-content .photo-box:hover{
+    box-shadow: inset 0px 0px 50px -8px rgb(119 5 243);
+    padding: 10px;
+    transition: 0.5s;
+}
+/*photo content end*/
+
+/* highlight section start */
+.highlight{
+    width: auto;
+    margin: 50px  0px 50px 170px;
+    display: flex;
+    align-items: center;
+}
+.highlight .all-highlight{
+    width: 50%;
+    padding-top: 120px;
+}
+.highlight .messi-run{
+    width: 50%;
+}
+.highlight .messi-run img{
+    width: 90%;
+    height: 450px;
+}
+.highlight .all-highlight h3{
+    font-size: 55px;
+    text-transform: capitalize;
+}
+.highlight .all-highlight p{
+    line-height: 28px;
+    color: rgb(107, 105, 105);
+}
+.highlight .all-highlight a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgba(255, 0, 76, 0.822);
+    color: #fff;
+    padding: 10px 30px;
+    margin-top: 25px;
+    transition: 0.5s;
+}
+.highlight .all-highlight a .fa-sharp{
+    font-size: 18px;
+    padding-left: 10px;
+    position: relative;
+    top: 1.5px;
+}
+.highlight .all-highlight a:hover{
+    background-color:#2D25A0;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 19px;
+    box-shadow: inset 0px 0px 50px -8px rgb(50, 252, 0);
+    
+}
+/* highlight section end */
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer .footer-img{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer .footer-img{
+    width: fit-content;
+}
+footer .footer-img .football-text{
+    width: 30%;
+    text-align: center;
+}
+footer .footer-img .football-text img{
+    width: 50%;
+    filter: invert(12%) sepia(74%) saturate(6133%) hue-rotate(340deg) brightness(102%) contrast(104%);
+}
+footer .footer-img .social-icon{
+    text-align: center;
+    width: 30%;
+}
+footer .footer-img .social-icon .fa-brands{
+    color: red;
+    padding: 10px;
+    font-size: 30px;
+}
+footer .footer-img .social-icon .fa-twitter{
+    color: dodgerblue;
+}
+footer .footer-img .social-icon .fa-dribbble{
+    color: green;
+}
+footer .footer-img .social-icon h4{
+    font-size: 20px;
+    color: rgb(255, 102, 0);
+    margin-top: 15px;
+}
